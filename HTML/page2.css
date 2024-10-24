@@ -1,0 +1,195 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+/* About Section */
+.about-section {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Why Buy Section */
+.why-buy-section {
+    background-color: #0056b3;
+    color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.why-buy-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.why-buy-section ul {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.why-buy-section ul li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.why-buy-section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+
+/* Technology Section */
+.technology-section {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.technology-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tech-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.tech-content img {
+    max-width: 48%;
+    border-radius: 10px;
+}
+
+.tech-text {
+    max-width: 48%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tech-text p {
+    margin-bottom: 20px;
+}
+
+/* Future Updates Section */
+.future-updates-section {
+    background-color: #0056b3;
+    color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.future-updates-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.future-updates-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* How to Use Section */
+.how-to-use-section {
+    background-color: white;
+    padding: 40px;
+    text-align: left;
+}
+
+.how-to-use-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.how-to-use-section ol {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.how-to-use-section ol li {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.call{
+    color: #333;
+}
